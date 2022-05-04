@@ -1,0 +1,24 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[3,)" # Require at least 3.x
+license = 'LGPL'
+[[mods]]
+modId = "synth"
+version = "1.0.0"
+displayName = "Synth-Main"
+credits = "doozyz"
+authors = "doozyz"
+description = '''
+The core of the synth mods. Has the basic machines/resources needed to get into synth.
+'''
+[[dependencies.synth]]
+modId = "forge"
+mandatory = true
+versionRange = "[40.1.0]"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.synth]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2]"
+ordering = "NONE"
+side = "BOTH"

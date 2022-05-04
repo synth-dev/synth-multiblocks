@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "state=unformed": {
+      "model": "synth:block/reactor/panel_full"
+    },
+    "state=formed,facing=north": {
+      "model": "synth:block/reactor/panel_partial"
+    },
+    "state=formed,facing=east": {
+      "model": "synth:block/reactor/panel_partial",
+      "y": 90
+    },
+    "state=formed,facing=south": {
+      "model": "synth:block/reactor/panel_partial",
+      "y": 180
+    },
+    "state=formed,facing=west": {
+      "model": "synth:block/reactor/panel_partial",
+      "y": 270
+    },
+    "state=formed,facing=up": {
+      "model": "synth:block/reactor/panel_partial",
+      "x": 90
+    },
+    "state=formed,facing=down": {
+      "model": "synth:block/reactor/panel_partial",
+      "x": 270
+    }
+  }
+}

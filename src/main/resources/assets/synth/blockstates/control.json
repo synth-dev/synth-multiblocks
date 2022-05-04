@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "state=unformed": {
+      "model": "synth:block/reactor/io/control"
+    },
+    "state=formed,facing=north": {
+      "model": "synth:block/reactor/io/control_partial",
+      "y": 270
+    },
+    "state=formed,facing=east": {
+      "model": "synth:block/reactor/io/control_partial",
+      "y": 0
+    },
+    "state=formed,facing=south": {
+      "model": "synth:block/reactor/io/control_partial",
+      "y": 90
+    },
+    "state=formed,facing=west": {
+      "model": "synth:block/reactor/io/control_partial",
+      "y": 180
+    }
+  }
+}
